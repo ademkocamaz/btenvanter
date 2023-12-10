@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D728C25B-9AAE-40F7-829F-BCD1421405F4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="bt_envanter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\guncelleme\source\guncelleme.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="bt_envanter">
+        <MSBuild Projects="bt_envanter.dproj"/>
+    </Target>
+    <Target Name="bt_envanter:Clean">
+        <MSBuild Projects="bt_envanter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bt_envanter:Make">
+        <MSBuild Projects="bt_envanter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="guncelleme">
+        <MSBuild Projects="..\guncelleme\source\guncelleme.dproj"/>
+    </Target>
+    <Target Name="guncelleme:Clean">
+        <MSBuild Projects="..\guncelleme\source\guncelleme.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="guncelleme:Make">
+        <MSBuild Projects="..\guncelleme\source\guncelleme.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="bt_envanter;guncelleme"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="bt_envanter:Clean;guncelleme:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="bt_envanter:Make;guncelleme:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

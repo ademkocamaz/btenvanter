@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="bdishb7xzbm6uphgt_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:bt_envanter:acilis.Tacilis_Form">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,290,150" />
+      <property name="hideAttribute" value="False" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:acilis.Tacilis_Form.anapanel_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:acilis.Tacilis_Form.sMemo1" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:acilis.Tacilis_Form.sBitBtn1" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:acilis.Tacilis_Form.sBitBtn1Click(System.TObject)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:bt_envanter:acilis.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:acilis.@unitclass.acilis_Form" />
+      <reference referencedUin="delphi:l_ast:src:bt_envanter:acilis.@unitclass.acilis_Form" />
+    </reference>
+  </view>
+</nodeSet>

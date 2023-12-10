@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="qvuals974al0luo3q_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:bt_envanter:anaform.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.@unitclass.anaform_Form" />
+      <reference referencedUin="delphi:l_ast:src:bt_envanter:anaform.@unitclass.anaform_Form" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:bt_envanter:anaform.Tanaform_Form">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,232,263" />
+      <property name="hideAttribute" value="True" />
+      <property name="hideOperation" value="False" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara_sEdit" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_menu_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_araopsiyon_sRadioGroup" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.bt_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.envanter_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ekle_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sil_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.envanter_ekle_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.envanter_sil_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.raporlar_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.gorunum_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.hakkinda_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.ayarlar_MainMenu" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara_temizle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.bt_sSkinProvider" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.NextAlpha2" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.bt_sPageControl" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sTabSheet" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.envanter_sTabSheet" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.envanter_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ust_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanicilar_sLabel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanicilar_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_DBGrid" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sImage" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_kullanicilar_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_kullanicilar_sLabel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_sLabel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_sLabel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_sLabel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_menu_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_DBGrid" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_ekle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sil_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_duzenle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_ekle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_sil_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_duzenle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_menu_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_ekle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_sil_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_envanter_duzenle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_menu_sPanel" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_ekle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_sil_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_duzenle_sBitBtn" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_DBGrid" />
+      <reference referencedUin="delphi:e_field:src:bt_envanter:anaform.Tanaform_Form.kullanici_sDBGrid" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara_temizle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara_sEditKeyPress(System.TObject,ref@System.Char)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_ekle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_sil_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_ekle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_duzenle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_duzenle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_bilgi_sil_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.harfleriBuyut(sEdit.TsEdit)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_ara(System.string)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_ekle_sBitBtnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:bt_envanter:anaform.Tanaform_Form.kullanici_giris_bilgi_sil_sBitBtnClick(System.TObject)" />
+    </reference>
+  </view>
+</nodeSet>

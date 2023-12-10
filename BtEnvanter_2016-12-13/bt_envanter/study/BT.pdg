@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DIAGRAM DIAGRAMTYPE="Physical" FILE_VERSION="2" ZOOM="100" SCROLLH="0" SCROLLV="0" PAPERID="9" PAPERORIENTATION="0" DBTYPE="3">
+    <OPTIONS OPTION0="OPT_VIEW_DISPLAY_LINK_NAMES_IN_DGR=1" OPTION1="OPT_IDENTIFIER_CASE=1" OPTION2="OPT_PHYS_TARGET_VERSION=2.5" OPTION3="OPT_SHOW_DATATYPES=0" OPTION4="OPT_PHYS_FB_DEFAULT_CHARSET=WIN1254">
+    </OPTIONS>
+    <ITEMS>
+        <DOMAINS>
+        </DOMAINS>
+        <TABLES>
+            <TABLE ID="{8F457185-C106-4564-859D-0520D0989DCC}" NAME="KULLANICI" PKNAME="PK_KULLANICI" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="ADI" DT="VarChar" NOTE="" DTL="50" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="SOYADI" DT="VarChar" NOTE="" DTL="50" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="BIRIM" DT="VarChar" NOTE="" DTL="20" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="TELEFON_DAHILI" DT="VarChar" NOTE="" DTL="20" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="TELEFON_GSM" DT="VarChar" NOTE="" DTL="20" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" DEF="'NOW'" ORDER="7">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="160,504">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" NAME="ENVANTER" PKNAME="PK_ENVANTER" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="TIPI" DT="VarChar" NOTE="" DTL="20" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="ACIKLAMA" DT="VarChar" NOTE="" DTL="200" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="YERI" DT="VarChar" NOTE="" DTL="50" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="5">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="432,0">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" NAME="KULLANICI_ENVANTER" PKNAME="PK_KULLANICI_ENVANTER" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="KULLANICI_ID" DT="BigInt" NOTE="" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="ENVANTER_ID" DT="BigInt" NOTE="" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="4">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="8,224">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{1C196731-76E3-4A53-8FFC-B28C096CE0EF}" NAME="LISANS" PKNAME="PK_LISANS" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="TIPI" DT="VarChar" NOTE="" DTL="20" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="ANAHTAR" DT="VarChar" NOTE="" DTL="200" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="BASLANGIC_TARIHI" DT="Date" NOTE="" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="BITIS_TARIHI" DT="Date" NOTE="" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="ACIKLAMA" DT="VarChar" NOTE="" DTL="200" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="ENVANTER_ID" DT="BigInt" NOTE="" REQ="1" ORDER="7">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="8">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="648,312">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{9F648867-284F-4CB9-BA13-1F851FCF76D1}" NAME="ENVANTER_GIRIS_BILGI" PKNAME="PK_ENVANTER_GIRIS_BILGI" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="TIPI" DT="VarChar" NOTE="" DTL="50" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="KULLANICI_ADI" DT="VarChar" NOTE="" DTL="50" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="SIFRE" DT="BigInt" NOTE="" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="ACIKLAMA" DT="VarChar" NOTE="" DTL="200" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="ENVANTER_ID" DT="BigInt" NOTE="" REQ="1" ORDER="7">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="840,56">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{759DF2D7-197C-4750-9D83-8FB570220118}" NAME="KULLANICI_GIRIS_BILGI" PKNAME="PK_KULLANICI_GIRIS_BILGI" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="TIPI" DT="VarChar" NOTE="" DTL="50" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="KULLANICI_ADI" DT="VarChar" NOTE="" DTL="50" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="SIFRE" DT="VarChar" NOTE="" DTL="50" REQ="1" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="ACIKLAMA" DT="VarChar" NOTE="" DTL="200" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="ENVANTER_ID" DT="BigInt" NOTE="" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="KULLANICI_ID" DT="BigInt" NOTE="" REQ="1" ORDER="7">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="8">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="312,288">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{8FFADF28-712E-43C3-8F66-702074A06349}" NAME="ENVANTER_BILGI" PKNAME="PK_ENVANTER_BILGI" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="BILGI" DT="VarChar" NOTE="" DTL="200" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER1" DT="VarChar" NOTE="" DTL="200" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER2" DT="VarChar" NOTE="" DTL="200" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER3" DT="VarChar" NOTE="" DTL="200" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="ENVANTER_ID" DT="BigInt" NOTE="" REQ="1" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="7">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="0,0">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+            <TABLE ID="{EECF2A7D-E6D3-4CB6-BA46-85D70E38346B}" NAME="KULLANICI_BILGI" PKNAME="PK_KULLANICI_BILGI" TT="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" DT="BigInt" ISID="1" NOTE="" REQ="1" ORDER="0">
+                    </COLUMN>
+                    <COLUMN NAME="NO" DT="VarChar" ISID="1" NOTE="" DTL="20" REQ="1" ORDER="1">
+                    </COLUMN>
+                    <COLUMN NAME="BILGI" DT="VarChar" NOTE="" DTL="200" REQ="1" ORDER="2">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER1" DT="VarChar" NOTE="" DTL="200" REQ="1" ORDER="3">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER2" DT="VarChar" NOTE="" DTL="200" ORDER="4">
+                    </COLUMN>
+                    <COLUMN NAME="DEGER3" DT="VarChar" NOTE="" DTL="200" ORDER="5">
+                    </COLUMN>
+                    <COLUMN NAME="KULLANICI_ID" DT="BigInt" NOTE="" REQ="1" ORDER="6">
+                    </COLUMN>
+                    <COLUMN NAME="KAYIT_TARIHI" DT="Date" NOTE="" REQ="1" ORDER="7">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="16579836" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="16,704">
+                    </POS>
+                </VPROPS>
+            </TABLE>
+        </TABLES>
+        <VIEWS>
+            <VIEW NAME="ENVANTER_TIPLERI" ID="{4B54243E-7A58-4140-81F3-22CB0DD9648E}">
+                <SOURCE>
+<![CDATA[SELECT DISTINCT(TIPI) FROM ENVANTER
+]]>
+                </SOURCE>
+                <COLUMNS>
+                    <COLUMN NAME="ENVANTER_TIPLERI">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS TMODE="1">
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="15790320" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="1064,440">
+                    </POS>
+                </VPROPS>
+            </VIEW>
+            <VIEW NAME="LISANS_TIPLERI" ID="{B4D8676D-27AA-4282-886C-21F208118222}">
+                <SOURCE>
+<![CDATA[SELECT DISTINCT(TIPI) FROM LISANS
+]]>
+                </SOURCE>
+                <COLUMNS>
+                    <COLUMN NAME="LISANS_TIPLERI">
+                    </COLUMN>
+                </COLUMNS>
+                <VPROPS TMODE="1">
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="15790320" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="1064,488">
+                    </POS>
+                </VPROPS>
+            </VIEW>
+        </VIEWS>
+        <FOREIGN_KEYS>
+            <FOREIGN_KEY NAME="FK_KULLANICI_ENVANTER" ID="{89BFFE1A-A577-44BD-9539-302F53C54413}" CHILDID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" PARENT_CONS="PK_ENVANTER" UA="1" DA="2">
+                <COLUMNS COL1="ENVANTER_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_KULLANICI_KULLANICI" ID="{D40AAEFC-CB4E-410D-B8D7-2FD0EE2C7ED2}" CHILDID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" PARENT_CONS="PK_KULLANICI" UA="1" DA="2">
+                <COLUMNS COL1="KULLANICI_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_LISANS_ENVANTER" ID="{C580A8A6-6192-4C51-A907-94DAC3CC38D8}" CHILDID="{1C196731-76E3-4A53-8FFC-B28C096CE0EF}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" PARENT_CONS="PK_ENVANTER" UA="1" DA="2">
+                <COLUMNS COL1="ENVANTER_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_ENVANTER_GIRIS_BILGI" ID="{458641E2-EEDE-4EB0-A0BE-42742D042AE9}" CHILDID="{9F648867-284F-4CB9-BA13-1F851FCF76D1}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" PARENT_CONS="PK_ENVANTER" UA="1" DA="2">
+                <COLUMNS COL1="ENVANTER_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_KULLANICI_GIRIS_BILGI" ID="{79BF726B-05BC-48CE-AC2D-33E1D8E9CAE6}" CHILDID="{759DF2D7-197C-4750-9D83-8FB570220118}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" PARENT_CONS="PK_KULLANICI" UA="1" DA="2">
+                <COLUMNS COL1="KULLANICI_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_ENVANTER_BILGI" ID="{33D0510A-8710-4D8D-980C-0D0C8572AADE}" CHILDID="{8FFADF28-712E-43C3-8F66-702074A06349}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" PARENT_CONS="PK_ENVANTER" UA="1" DA="2">
+                <COLUMNS COL1="ENVANTER_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_KULLANICI_GIRIS_ENVANTER" ID="{57960F06-07CB-4B86-A341-B4E48EBE731C}" CHILDID="{759DF2D7-197C-4750-9D83-8FB570220118}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" PARENT_CONS="PK_ENVANTER" UA="1" DA="1">
+                <COLUMNS COL1="ENVANTER_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+            <FOREIGN_KEY NAME="FK_KULLANICI_BILGI" ID="{614AD5F5-2F63-4C3C-9DC8-611014F54215}" CHILDID="{EECF2A7D-E6D3-4CB6-BA46-85D70E38346B}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" PARENT_CONS="PK_KULLANICI" UA="1" DA="2">
+                <COLUMNS COL1="KULLANICI_ID">
+                </COLUMNS>
+            </FOREIGN_KEY>
+        </FOREIGN_KEYS>
+        <INDICES>
+            <INDEX NAME="INDEX_ENVANTER" ID="{8CC6AF80-8DB4-494B-AB04-EA7BC1AA77BF}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_LISANS" ID="{51A12DA3-5263-4FD3-A7FB-0B76FF4CF26B}" PARENTID="{1C196731-76E3-4A53-8FFC-B28C096CE0EF}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_ENVANTER_GIRIS_BILGI" ID="{40D9AFA3-C26C-4F0A-8769-DCFCED2B7F25}" PARENTID="{9F648867-284F-4CB9-BA13-1F851FCF76D1}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_KULLANICI_GIRIS_BILGI" ID="{988B8CDF-DD20-4ED9-8173-F22F4553062C}" PARENTID="{759DF2D7-197C-4750-9D83-8FB570220118}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_KULLANICI_1" ID="{84BCA965-4ABA-475C-B4DD-84459D3C7440}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ADI" SO="0">
+                    </COLUMN>
+                    <COLUMN NAME="SOYADI" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_KULLANICI_0" ID="{E591056C-867A-4E6E-857F-7ADBE0EEF02B}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_KULLANICI_BILGI" ID="{57A614EB-FB71-4993-A39B-AAF55EDF3BF1}" PARENTID="{EECF2A7D-E6D3-4CB6-BA46-85D70E38346B}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_KULLANICI_ENVANTER" ID="{0EA7F5BD-8EF7-4252-932A-8D7CE3B56D5C}" PARENTID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+            <INDEX NAME="INDEX_ENVANTER_BILGI" ID="{C723A81A-76D1-4E3D-B1B0-232BB1E536CF}" PARENTID="{8FFADF28-712E-43C3-8F66-702074A06349}" SO="0">
+                <COLUMNS>
+                    <COLUMN NAME="ID" SO="0">
+                    </COLUMN>
+                </COLUMNS>
+            </INDEX>
+        </INDICES>
+        <TRIGGERS>
+        </TRIGGERS>
+        <CHECK_CONSTRAINTS>
+        </CHECK_CONSTRAINTS>
+        <UNIQUE_CONSTRAINTS>
+        </UNIQUE_CONSTRAINTS>
+        <LINKS>
+            <LINK OBJID="{89BFFE1A-A577-44BD-9539-302F53C54413}" CHILDID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SP="-264,-80" DP="40,40">
+            </LINK>
+            <LINK OBJID="{D40AAEFC-CB4E-410D-B8D7-2FD0EE2C7ED2}" CHILDID="{B7435D81-0E4E-4D3C-BE44-3D5B76D4A7F9}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" SP="16,68" DP="-68,8">
+            </LINK>
+            <LINK OBJID="{C580A8A6-6192-4C51-A907-94DAC3CC38D8}" CHILDID="{1C196731-76E3-4A53-8FFC-B28C096CE0EF}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SP="56,8" DP="48,0">
+            </LINK>
+            <LINK OBJID="{458641E2-EEDE-4EB0-A0BE-42742D042AE9}" CHILDID="{9F648867-284F-4CB9-BA13-1F851FCF76D1}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SP="88,16" DP="80,0">
+            </LINK>
+            <LINK OBJID="{79BF726B-05BC-48CE-AC2D-33E1D8E9CAE6}" CHILDID="{759DF2D7-197C-4750-9D83-8FB570220118}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" SP="172,124" DP="32,-104">
+            </LINK>
+            <LINK OBJID="{33D0510A-8710-4D8D-980C-0D0C8572AADE}" CHILDID="{8FFADF28-712E-43C3-8F66-702074A06349}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SP="96,8" DP="88,8">
+            </LINK>
+            <LINK OBJID="{57960F06-07CB-4B86-A341-B4E48EBE731C}" CHILDID="{759DF2D7-197C-4750-9D83-8FB570220118}" PARENTID="{C2624FDA-61F6-4F4F-A181-D89D5A25E086}" SP="-24,16" DP="56,8">
+            </LINK>
+            <LINK OBJID="{614AD5F5-2F63-4C3C-9DC8-611014F54215}" CHILDID="{EECF2A7D-E6D3-4CB6-BA46-85D70E38346B}" PARENTID="{8F457185-C106-4564-859D-0520D0989DCC}" SP="72,8" DP="-16,124">
+            </LINK>
+        </LINKS>
+        <COMMENTS>
+            <COMMENT ID="{CB9B565A-2DBF-490B-85F2-F824B7B2BBBC}" TEXT="VIEW&#013;&#010;">
+                <VPROPS>
+                    <FONT>
+                    </FONT>
+                    <COLORS FCLR="-16777192" OLCLR="0" HDRCLR="10789024">
+                    </COLORS>
+                    <POS POS="1064,392" W="132" H="40">
+                    </POS>
+                </VPROPS>
+            </COMMENT>
+        </COMMENTS>
+        <REGIONS>
+        </REGIONS>
+        <DOCLINKS>
+        </DOCLINKS>
+        <SUBDIAGRAMS>
+        </SUBDIAGRAMS>
+    </ITEMS>
+</DIAGRAM>

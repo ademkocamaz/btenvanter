@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="kcx3yk8u0rn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::3f0yq0mt9ji_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,133,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanici.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanici.Tyenikullanici_Form" />
+    </reference>
+    <reference referencedUin="design:view:::8q4uo5cdjkm_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="162,1,120,134" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:bt_envanter.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::mzygkt7hjsn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="301,1,178,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanicigirisbilgi.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanicigirisbilgi.Tyenikullanicigirisbilgi_Form" />
+    </reference>
+    <reference referencedUin="design:view:::c7c1nftubmq_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="162,154,120,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:datamodule.TData" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:datamodule.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::bdishb7xzbm6uphgt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="53,180,100,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:acilis.Tacilis_Form" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:acilis.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::w3ccn45h7sn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="301,171,155,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanicibilgi.Tyenikullanicibilgi_Form" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenikullanicibilgi.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::8c0iyntharn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,341,137,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenienvanter.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:yenienvanter.Tyenienvanter_Form" />
+    </reference>
+    <reference referencedUin="design:view:::qvuals974al0luo3q_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="201,369,112,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:anaform.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:anaform.Tanaform_Form" />
+    </reference>
+    <reference referencedUin="design:view:::z2sl7qsqxzg_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="92,369,100,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:test.Ttest_Form" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:test.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::e8udovb4r5n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="517,1,100,151" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:giris.Tgiris_Form" />
+      <reference referencedUin="delphi:e_class:src:bt_envanter:giris.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

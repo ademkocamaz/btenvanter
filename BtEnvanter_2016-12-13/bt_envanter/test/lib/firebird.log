@@ -1,0 +1,8 @@
+
+JDESKTOP	Sat Nov 12 19:32:07 2016
+	ib_util init failed, UDFs can't be used - looks like firebird misconfigured
+	
+	F:\Adem\Desktop\bt_envanter\test\lib\bin/ib_util.dll library has not been found
+	F:\Adem\Desktop\bt_envanter\test\lib\ib_util.dll library has not been found
+	ib_util.dll library has not been found
+

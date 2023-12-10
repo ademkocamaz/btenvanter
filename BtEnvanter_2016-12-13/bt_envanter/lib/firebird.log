@@ -1,0 +1,120 @@
+
+JDESKTOP	Fri Sep 09 15:01:19 2016
+	INET/INET_connect: gethostbyname ((local)) failed, error code = 11001
+
+
+JDESKTOP	Fri Sep 09 15:01:21 2016
+	INET/INET_connect: gethostbyname ((local)) failed, error code = 11001
+
+
+JDESKTOP	Fri Sep 09 15:01:55 2016
+	INET/INET_connect: gethostbyname ((local)) failed, error code = 11001
+
+
+JDESKTOP	Fri Sep 09 15:01:57 2016
+	INET/INET_connect: gethostbyname ((local)) failed, error code = 11001
+
+
+JDESKTOP	Mon Sep 12 00:40:04 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JDESKTOP	Thu Sep 15 19:57:27 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JDESKTOP	Sun Sep 25 00:51:10 2016
+	Shutting down the server with 1 active connection(s) to 1 database(s), 0 active service(s)
+
+
+JNB	Sat Dec 03 14:31:58 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sat Dec 03 14:35:10 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sat Dec 03 17:08:54 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 16:01:49 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 16:17:26 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 16:20:35 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 16:49:22 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 18:53:19 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 19:57:52 2016
+	Sweep is started by SWEEPER
+	Database "C:\USERS\ADEM\DESKTOP\BT ENVANTER\DATA\BT.FDB" 
+	OIT 450, OAT 20745, OST 20745, Next 20746
+
+
+JNB	Sun Dec 04 19:57:52 2016
+	Sweep is finished
+	Database "C:\USERS\ADEM\DESKTOP\BT ENVANTER\DATA\BT.FDB" 
+	OIT 20745, OAT 20748, OST 20748, Next 20749
+
+
+JNB	Sun Dec 04 19:58:21 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Sun Dec 04 19:59:32 2016
+	Sweep is started by SWEEPER
+	Database "C:\USERS\ADEM\DESKTOP\BT ENVANTER\DATA\BT.FDB" 
+	OIT 450, OAT 20451, OST 20451, Next 20452
+
+
+JNB	Sun Dec 04 19:59:32 2016
+	Sweep is finished
+	Database "C:\USERS\ADEM\DESKTOP\BT ENVANTER\DATA\BT.FDB" 
+	OIT 20451, OAT 20451, OST 20451, Next 20453
+
+
+JNB	Sun Dec 04 20:01:07 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Thu Dec 08 11:44:09 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Thu Dec 08 21:08:26 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Fri Dec 09 14:46:58 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Fri Dec 09 18:31:43 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Fri Dec 09 18:35:56 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Fri Dec 09 18:38:07 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+
+
+JNB	Fri Dec 09 21:16:04 2016
+	Shutting down the server with 0 active connection(s) to 0 database(s), 1 active service(s)
+

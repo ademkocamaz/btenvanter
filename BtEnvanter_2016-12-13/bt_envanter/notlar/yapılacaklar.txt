@@ -1,0 +1,6 @@
+# lisans kýsmýnda üst tarafta envanter seç kýsmýnda;
+	- lisans listesi çýkýyor, envanter listesi çýkmasý lazým düzeltilecek
+	- düðmelerin üzerinde açýklama yok
+# birimler kullanýcý ve envanter için ortak olacak þekilde geliþtirilecek
+
+	

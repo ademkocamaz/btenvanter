@@ -1,0 +1,1388 @@
+2016-12-11 23:11:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-11 23:11:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-11 23:11:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:11:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-11 23:11:29 cat: Transaction, proto: firebirdd-2.5, msg: COMMIT TRANSACTION "C:\Users\Adem\Desktop\bt_envanter\data\BT.FDB"
+2016-12-11 23:11:29 cat: Connect, proto: firebirdd-2.5, msg: DISCONNECT FROM "C:\Users\Adem\Desktop\bt_envanter\data\BT.FDB"
+2016-12-11 23:14:11 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-11 23:14:11 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-11 23:14:11 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:11 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-11 23:14:16 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-11 23:14:16 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-11 23:14:16 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : INSERT INTO GIRIS (KULLANICI_ADI,SIFRE) VALUES('TEST', '');
+
+2016-12-11 23:14:16 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:14:16 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-11 23:14:16 cat: Transaction, proto: firebirdd-2.5, msg: COMMIT TRANSACTION "C:\Users\Adem\Desktop\bt_envanter\data\BT.FDB"
+2016-12-11 23:14:16 cat: Connect, proto: firebirdd-2.5, msg: DISCONNECT FROM "C:\Users\Adem\Desktop\bt_envanter\data\BT.FDB"
+2016-12-11 23:14:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-11 23:14:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-11 23:14:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-11 23:14:20 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-11 23:14:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 : SELECT * FROM ENVANTER
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT * FROM GIRIS
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 : INSERT INTO GIRIS_BOS_ID (BOS_ID) VALUES (1)
+
+2016-12-11 23:14:21 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT * FROM AYARLAR
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 : SELECT * FROM LISANS
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-11 23:14:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT * FROM AYARLAR
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 : SELECT * FROM GIRIS
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM KULLANICI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 : SELECT * FROM ENVANTER
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM ENVANTER
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT * FROM KULLANICI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 : SELECT * FROM LISANS
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT * FROM LISANS
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 : SELECT * FROM ENVANTER
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:14:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-11 23:14:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-11 23:14:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT KULLANICI_BIRIM FROM VIEW_KULLANICI_BIRIM;
+
+2016-12-11 23:14:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-11 23:14:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_KULLANICI_BIRIM' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-11 23:14:35 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : INSERT INTO KULLANICI (ID,ADI,SOYADI,BIRIM,TELEFON_DAHILI,TELEFON_GSM,KAYIT_TARIHI,UNVAN,EMAIL) VALUES (?,?,?,?,?,?,?,?,?)
+2016-12-11 23:14:35 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 51 : (NULL),'TEST','TEST','TEST','TEST','TEST',(NULL),'TEST','TEST',
+2016-12-11 23:14:35 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:14:35 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:14:38 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 : SELECT KULLANICI_BILGI_TIPI FROM VIEW_KULLANICI_BILGI_TIPI;
+
+2016-12-11 23:14:38 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-11 23:14:38 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_KULLANICI_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:38 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-11 23:14:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : INSERT INTO KULLANICI_BILGI (ID,TIPI,DEGER1,DEGER2,DEGER3,KULLANICI_ID,KAYIT_TARIHI,ACIKLAMA) VALUES (?,?,?,?,?,?,?,?)
+2016-12-11 23:14:44 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 54 : (NULL),'TEST','TEST','TEST','TEST',1,(NULL),'TEST',
+2016-12-11 23:14:44 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:14:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-11 23:14:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-11 23:14:47 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 : SELECT KULLANICI_GIRIS_BILGI_TIPI FROM VIEW_KULLANICI_GIRIS_BILGI_TIPI;
+
+2016-12-11 23:14:47 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-11 23:14:47 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_KULLANICI_GIRIS_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:47 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-11 23:14:52 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : INSERT INTO KULLANICI_GIRIS_BILGI (ID,TIPI,KULLANICI_ADI,SIFRE,ACIKLAMA,ENVANTER_ID,KULLANICI_ID,KAYIT_TARIHI) VALUES (?,?,?,?,?,?,?,?)
+2016-12-11 23:14:52 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 57 : (NULL),'TEST','TEST','TEST','TEST',(NULL),1,(NULL),
+2016-12-11 23:14:52 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:14:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-11 23:14:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-11 23:14:58 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT ENVANTER_TIPI FROM VIEW_ENVANTER_TIPI;
+
+2016-12-11 23:14:58 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-11 23:14:58 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_ENVANTER_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:58 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-11 23:14:58 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT ENVANTER_BIRIM FROM VIEW_ENVANTER_BIRIM;
+
+2016-12-11 23:14:58 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-11 23:14:58 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_ENVANTER_BIRIM' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:14:58 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-11 23:15:10 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : INSERT INTO ENVANTER (ID,TIPI,ACIKLAMA,KAYIT_TARIHI,KULLANICI_ID,YERI,BIRIM,DURUM,MARKA,MODEL) VALUES (?,?,?,?,?,?,?,?,?,?)
+2016-12-11 23:15:10 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 62 : (NULL),'TEST','TEST',(NULL),(NULL),'TEST','TEST','TEST','TEST','TEST',
+2016-12-11 23:15:10 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:10 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:15:11 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:13 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT ENVANTER_BILGI_TIPI FROM VIEW_ENVANTER_BILGI_TIPI;
+
+2016-12-11 23:15:13 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-11 23:15:13 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_ENVANTER_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:15:13 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-11 23:15:20 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : INSERT INTO ENVANTER_BILGI (ID,TIPI,DEGER1,DEGER2,DEGER3,ENVANTER_ID,KAYIT_TARIHI,ACIKLAMA) VALUES (?,?,?,?,?,?,?,?)
+2016-12-11 23:15:20 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 65 : (NULL),'TEST','TEST','TEST','TEST',1,(NULL),'TEST',
+2016-12-11 23:15:20 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:15:20 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT ENVANTER_GIRIS_BILGI_TIPI FROM VIEW_ENVANTER_GIRIS_BILGI_TIPI;
+
+2016-12-11 23:15:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-11 23:15:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_ENVANTER_GIRIS_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:15:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-11 23:15:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : INSERT INTO ENVANTER_GIRIS_BILGI (ID,TIPI,KULLANICI_ADI,SIFRE,ACIKLAMA,KAYIT_TARIHI,ENVANTER_ID) VALUES (?,?,?,?,?,?,?)
+2016-12-11 23:15:29 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 68 : (NULL),'TEST','TEST','TEST','TEST',(NULL),1,
+2016-12-11 23:15:29 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:15:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:33 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT LISANS_TIPI FROM VIEW_LISANS_TIPI;
+
+2016-12-11 23:15:33 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-11 23:15:33 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_LISANS_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:15:33 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-11 23:15:36 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : INSERT INTO LISANS (ID,TIPI,BASLANGIC_TARIHI,BITIS_TARIHI,ACIKLAMA,ENVANTER_ID,KAYIT_TARIHI) VALUES (?,?,?,?,?,?,?)
+2016-12-11 23:15:36 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 71 : (NULL),'TEST',(NULL),(NULL),'TEST',(NULL),(NULL),
+2016-12-11 23:15:36 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:36 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:15:38 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 : SELECT LISANS_BILGI_TIPI FROM VIEW_LISANS_BILGI_TIPI;
+
+2016-12-11 23:15:38 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-11 23:15:38 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_LISANS_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:15:38 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-11 23:15:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 74 : INSERT INTO LISANS_BILGI (ID,TIPI,DEGER1,DEGER2,DEGER3,LISANS_ID,KAYIT_TARIHI,ACIKLAMA) VALUES (?,?,?,?,?,?,?,?)
+2016-12-11 23:15:44 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 74 : (NULL),'TEST','TEST','TEST','TEST',1,(NULL),'TEST',
+2016-12-11 23:15:44 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 74
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:15:50 cat: Prepare, proto: firebirdd-2.5, msg: Statement 75 : SELECT * FROM ENVANTER
+
+2016-12-11 23:15:50 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 75
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:51 cat: Prepare, proto: firebirdd-2.5, msg: Statement 76 :  SELECT null as TABLE_CAT, null as TABLE_SCHEM, a.RDB$RELATION_NAME as TABLE_NAME, b.RDB$FIELD_NAME as COLUMN_NAME, b.RDB$FIELD_POSITION+1 as KEY_SEQ, a.RDB$INDEX_NAME as PK_NAME FROM RDB$RELATION_CONSTRAINTS a JOIN RDB$INDEX_SEGMENTS b ON (a.RDB$INDEX_NAME = b.RDB$INDEX_NAME) WHERE  RDB$CONSTRAINT_TYPE = 'PRIMARY KEY' AND a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, b.RDB$FIELD_NAME
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 76
+2016-12-11 23:15:51 cat: Prepare, proto: firebirdd-2.5, msg: Statement 77 : UPDATE ENVANTER SET KULLANICI_ID=? WHERE ID=?
+2016-12-11 23:15:51 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 77 : 1,1,
+2016-12-11 23:15:51 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 77
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-11 23:15:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-11 23:15:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-11 23:15:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:15:52 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:16:01 cat: Prepare, proto: firebirdd-2.5, msg: Statement 78 : SELECT * FROM LISANS
+
+2016-12-11 23:16:01 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 78
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:16:02 cat: Prepare, proto: firebirdd-2.5, msg: Statement 79 :  SELECT null as TABLE_CAT, null as TABLE_SCHEM, a.RDB$RELATION_NAME as TABLE_NAME, b.RDB$FIELD_NAME as COLUMN_NAME, b.RDB$FIELD_POSITION+1 as KEY_SEQ, a.RDB$INDEX_NAME as PK_NAME FROM RDB$RELATION_CONSTRAINTS a JOIN RDB$INDEX_SEGMENTS b ON (a.RDB$INDEX_NAME = b.RDB$INDEX_NAME) WHERE  RDB$CONSTRAINT_TYPE = 'PRIMARY KEY' AND a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, b.RDB$FIELD_NAME
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 79
+2016-12-11 23:16:02 cat: Prepare, proto: firebirdd-2.5, msg: Statement 80 : UPDATE LISANS SET ENVANTER_ID=? WHERE ID=?
+2016-12-11 23:16:02 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 80 : 1,1,
+2016-12-11 23:16:02 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 80
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:16:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:16:06 cat: Prepare, proto: firebirdd-2.5, msg: Statement 81 : SELECT * FROM LISANS
+
+2016-12-11 23:16:06 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 81
+2016-12-11 23:16:13 cat: Prepare, proto: firebirdd-2.5, msg: Statement 82 : SELECT * FROM LISANS
+
+2016-12-11 23:16:13 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 82
+2016-12-11 23:16:16 cat: Prepare, proto: firebirdd-2.5, msg: Statement 83 : SELECT * FROM KULLANICI
+
+2016-12-11 23:16:16 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 83
+2016-12-11 23:16:49 cat: Prepare, proto: firebirdd-2.5, msg: Statement 84 : SELECT LISANS_TIPI FROM VIEW_LISANS_TIPI;
+
+2016-12-11 23:16:49 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 84
+2016-12-11 23:16:56 cat: Prepare, proto: firebirdd-2.5, msg: Statement 85 : UPDATE LISANS SET BASLANGIC_TARIHI=?,BITIS_TARIHI=? WHERE ID=?
+2016-12-11 23:16:56 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 85 : 2016-12-11 00:00:00.000,2016-12-11 00:00:00.000,1,
+2016-12-11 23:16:56 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 85
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:16:56 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:16:59 cat: Prepare, proto: firebirdd-2.5, msg: Statement 86 : SELECT * FROM LISANS
+
+2016-12-11 23:16:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 86
+2016-12-11 23:17:12 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-11 23:17:12 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-11 23:17:12 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:12 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-11 23:17:15 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-11 23:17:15 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT ID FROM KULLANICI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 : SELECT BOS_ID FROM KULLANICI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 : SELECT ID FROM KULLANICI_BILGI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT BOS_ID FROM KULLANICI_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT ID FROM KULLANICI_GIRIS_BILGI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT BOS_ID FROM KULLANICI_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 : SELECT * FROM ENVANTER
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT ID FROM ENVANTER WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 : SELECT BOS_ID FROM ENVANTER_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM ENVANTER_BILGI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM ENVANTER_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 : SELECT ID FROM ENVANTER_GIRIS_BILGI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT BOS_ID FROM ENVANTER_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM GIRIS
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM AYARLAR
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT ID FROM LISANS WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT BOS_ID FROM LISANS_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 : SELECT ID FROM LISANS_BILGI WHERE ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : SELECT BOS_ID FROM LISANS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-11 23:17:17 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:17 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 : SELECT * FROM AYARLAR
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : SELECT * FROM GIRIS
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT * FROM KULLANICI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 : SELECT * FROM ENVANTER
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : SELECT * FROM ENVANTER
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : SELECT * FROM KULLANICI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT * FROM LISANS
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : SELECT * FROM LISANS
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT * FROM LISANS_BILGI
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 : SELECT * FROM ENVANTER
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-11 23:17:18 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-11 23:17:18 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-11 23:17:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 : SELECT KULLANICI_BILGI_TIPI FROM VIEW_KULLANICI_BILGI_TIPI;
+
+2016-12-11 23:17:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-11 23:17:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_KULLANICI_BILGI_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-11 23:17:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-11 23:17:53 cat: Prepare, proto: firebirdd-2.5, msg: Statement 74 : SELECT * FROM KULLANICI
+
+2016-12-11 23:17:53 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 74
+2016-12-12 20:20:12 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-12 20:20:12 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-12 20:20:12 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:12 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-12 20:20:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-12 20:20:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT ID FROM KULLANICI WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 : SELECT BOS_ID FROM KULLANICI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 : SELECT ID FROM KULLANICI_BILGI WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT BOS_ID FROM KULLANICI_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT ID FROM KULLANICI_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT BOS_ID FROM KULLANICI_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 : SELECT * FROM ENVANTER
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT ID FROM ENVANTER WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 : SELECT BOS_ID FROM ENVANTER_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM ENVANTER_BILGI WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM ENVANTER_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 : SELECT ID FROM ENVANTER_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT BOS_ID FROM ENVANTER_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM GIRIS
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM AYARLAR
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-12 20:20:22 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-12 20:20:22 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT ID FROM LISANS WHERE ID=1
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT BOS_ID FROM LISANS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 : SELECT ID FROM LISANS_BILGI WHERE ID=1
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : SELECT BOS_ID FROM LISANS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-12 20:20:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:20:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 : SELECT * FROM AYARLAR
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : SELECT * FROM GIRIS
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT * FROM KULLANICI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 : SELECT * FROM ENVANTER
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : SELECT * FROM ENVANTER
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : SELECT * FROM KULLANICI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT * FROM LISANS
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : SELECT * FROM LISANS
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 : SELECT * FROM ENVANTER
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:20:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-12 20:20:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-12 20:20:33 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 : SELECT * FROM ENVANTER
+
+2016-12-12 20:20:33 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-12 20:21:13 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 : SELECT * FROM KULLANICI
+
+2016-12-12 20:21:13 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-12 20:22:09 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-12 20:22:09 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-12 20:22:09 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:09 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-12 20:22:23 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-12 20:22:23 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT ID FROM KULLANICI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 : SELECT BOS_ID FROM KULLANICI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 : SELECT ID FROM KULLANICI_BILGI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT BOS_ID FROM KULLANICI_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT ID FROM KULLANICI_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT BOS_ID FROM KULLANICI_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 : SELECT * FROM ENVANTER
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT ID FROM ENVANTER WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 : SELECT BOS_ID FROM ENVANTER_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM ENVANTER_BILGI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM ENVANTER_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 : SELECT ID FROM ENVANTER_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT BOS_ID FROM ENVANTER_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM GIRIS
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM AYARLAR
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT ID FROM LISANS WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT BOS_ID FROM LISANS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 : SELECT ID FROM LISANS_BILGI WHERE ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : SELECT BOS_ID FROM LISANS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-12 20:22:25 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:25 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 : SELECT * FROM AYARLAR
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : SELECT * FROM GIRIS
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT * FROM KULLANICI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 : SELECT * FROM ENVANTER
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : SELECT * FROM ENVANTER
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : SELECT * FROM KULLANICI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT * FROM LISANS
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : SELECT * FROM LISANS
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:22:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 : SELECT * FROM ENVANTER
+
+2016-12-12 20:22:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:22:27 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-12 20:22:27 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-12 20:22:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 : SELECT LISANS_TIPI FROM VIEW_LISANS_TIPI;
+
+2016-12-12 20:22:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-12 20:22:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_LISANS_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:22:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-12 20:22:37 cat: Prepare, proto: firebirdd-2.5, msg: Statement 74 : SELECT * FROM ENVANTER
+
+2016-12-12 20:22:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 74
+2016-12-12 20:29:39 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-12 20:29:39 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-12 20:29:39 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:39 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-12 20:29:43 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-12 20:29:43 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT ID FROM KULLANICI WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 : SELECT BOS_ID FROM KULLANICI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 : SELECT ID FROM KULLANICI_BILGI WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT BOS_ID FROM KULLANICI_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT ID FROM KULLANICI_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT BOS_ID FROM KULLANICI_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 : SELECT * FROM ENVANTER
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT ID FROM ENVANTER WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 : SELECT BOS_ID FROM ENVANTER_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM ENVANTER_BILGI WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM ENVANTER_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 : SELECT ID FROM ENVANTER_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT BOS_ID FROM ENVANTER_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-12 20:29:44 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM GIRIS
+
+2016-12-12 20:29:44 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM AYARLAR
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT ID FROM LISANS WHERE ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT BOS_ID FROM LISANS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 : SELECT ID FROM LISANS_BILGI WHERE ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : SELECT BOS_ID FROM LISANS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-12 20:29:45 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:45 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 : SELECT * FROM AYARLAR
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : SELECT * FROM GIRIS
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT * FROM KULLANICI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 : SELECT * FROM ENVANTER
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : SELECT * FROM ENVANTER
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : SELECT * FROM KULLANICI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT * FROM LISANS
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : SELECT * FROM LISANS
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 : SELECT * FROM ENVANTER
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:29:46 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-12 20:29:46 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-12 20:29:48 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 : SELECT LISANS_TIPI FROM VIEW_LISANS_TIPI;
+
+2016-12-12 20:29:48 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-12 20:29:48 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'VIEW_LISANS_TIPI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:29:48 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-12 20:29:51 cat: Prepare, proto: firebirdd-2.5, msg: Statement 74 : SELECT * FROM ENVANTER
+
+2016-12-12 20:29:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 74
+2016-12-12 20:30:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-12 20:30:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-12 20:30:24 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:24 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-12 20:30:26 cat: Prepare, proto: firebirdd-2.5, msg: Statement 4 : SELECT * FROM GIRIS WHERE KULLANICI_ADI='TEST'
+
+2016-12-12 20:30:26 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 4
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 5 : SELECT * FROM KULLANICI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 5
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 6 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 6
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 7 : SELECT ID FROM KULLANICI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 7
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 8 : SELECT BOS_ID FROM KULLANICI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 8
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 9 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 9
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 10 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 10
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 11 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 11
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 12 : SELECT ID FROM KULLANICI_BILGI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 12
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 13 : SELECT BOS_ID FROM KULLANICI_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 13
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 14 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 14
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 15 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 15
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 16 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 16
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 17 : SELECT ID FROM KULLANICI_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 17
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 18 : SELECT BOS_ID FROM KULLANICI_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 18
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 19 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'KULLANICI_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 19
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 20 : SELECT * FROM ENVANTER
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 20
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 21 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 21
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 22 : SELECT ID FROM ENVANTER WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 22
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 23 : SELECT BOS_ID FROM ENVANTER_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 23
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 24 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 24
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 25 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 25
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 26 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 26
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 27 : SELECT ID FROM ENVANTER_BILGI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 27
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 28 : SELECT BOS_ID FROM ENVANTER_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 28
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 29 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 29
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 30 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 30
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 31 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 31
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 32 : SELECT ID FROM ENVANTER_GIRIS_BILGI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 32
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 33 : SELECT BOS_ID FROM ENVANTER_GIRIS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 33
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 34 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'ENVANTER_GIRIS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 34
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 35 : SELECT * FROM GIRIS
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 35
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 36 : SELECT ID FROM GIRIS WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 36
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 37 : SELECT BOS_ID FROM GIRIS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 37
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 38 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 38
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 39 : SELECT * FROM AYARLAR
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 39
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 40 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 40
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 41 : SELECT ID FROM AYARLAR WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 41
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 42 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 42
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 43 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'AYARLAR_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 43
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 44 : SELECT ID FROM AYARLAR WHERE ID=2
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 44
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 45 : SELECT BOS_ID FROM AYARLAR_BOS_ID WHERE BOS_ID=2
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 45
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 46 : SELECT * FROM LISANS
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 46
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 47 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 47
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 48 : SELECT ID FROM LISANS WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 48
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 49 : SELECT BOS_ID FROM LISANS_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 49
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 50 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 50
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 51 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 51
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 52 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 52
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 53 : SELECT ID FROM LISANS_BILGI WHERE ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 53
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 54 : SELECT BOS_ID FROM LISANS_BILGI_BOS_ID WHERE BOS_ID=1
+
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 54
+2016-12-12 20:30:28 cat: Prepare, proto: firebirdd-2.5, msg: Statement 55 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'LISANS_BILGI_BOS_ID' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-12 20:30:28 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 55
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 56 : SELECT * FROM AYARLAR
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 56
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 57 : SELECT * FROM GIRIS
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 57
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 58 : SELECT * FROM KULLANICI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 58
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 59 : SELECT * FROM KULLANICI_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 59
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 60 : SELECT * FROM KULLANICI_GIRIS_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 60
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 61 : SELECT * FROM ENVANTER
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 62 : SELECT * FROM ENVANTER
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 63 : SELECT * FROM ENVANTER_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 64 : SELECT * FROM ENVANTER_GIRIS_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 65 : SELECT * FROM KULLANICI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 66 : SELECT * FROM LISANS
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 67 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 68 : SELECT * FROM LISANS
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 69 : SELECT * FROM LISANS_BILGI
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 70 : SELECT * FROM ENVANTER
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:30:29 cat: Prepare, proto: firebirdd-2.5, msg: Statement 71 : SELECT * FROM AYARLAR WHERE AYAR='TEMA'
+
+2016-12-12 20:30:29 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 71
+2016-12-12 20:30:37 cat: Prepare, proto: firebirdd-2.5, msg: Statement 72 :  SELECT null as TABLE_CAT, null as TABLE_SCHEM, a.RDB$RELATION_NAME as TABLE_NAME, b.RDB$FIELD_NAME as COLUMN_NAME, b.RDB$FIELD_POSITION+1 as KEY_SEQ, a.RDB$INDEX_NAME as PK_NAME FROM RDB$RELATION_CONSTRAINTS a JOIN RDB$INDEX_SEGMENTS b ON (a.RDB$INDEX_NAME = b.RDB$INDEX_NAME) WHERE  RDB$CONSTRAINT_TYPE = 'PRIMARY KEY' AND a.RDB$RELATION_NAME = 'LISANS' ORDER BY a.RDB$RELATION_NAME, b.RDB$FIELD_NAME
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 72
+2016-12-12 20:30:37 cat: Prepare, proto: firebirdd-2.5, msg: Statement 73 : UPDATE LISANS SET ENVANTER_ID=? WHERE ID=?
+2016-12-12 20:30:37 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 73 : (NULL),1,
+2016-12-12 20:30:37 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 73
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:30:37 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:30:50 cat: Prepare, proto: firebirdd-2.5, msg: Statement 74 : SELECT * FROM ENVANTER
+
+2016-12-12 20:30:50 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 74
+2016-12-12 20:30:51 cat: Prepare, proto: firebirdd-2.5, msg: Statement 75 : UPDATE LISANS SET ENVANTER_ID=? WHERE ID=?
+2016-12-12 20:30:51 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 75 : 1,1,
+2016-12-12 20:30:51 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 75
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:30:51 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:30:58 cat: Prepare, proto: firebirdd-2.5, msg: Statement 76 : UPDATE LISANS SET ENVANTER_ID=? WHERE ID=?
+2016-12-12 20:30:58 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 76 : (NULL),1,
+2016-12-12 20:30:58 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-12 20:30:58 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 76
+2016-12-12 20:30:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:30:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:30:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:30:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:30:59 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-12 20:31:00 cat: Prepare, proto: firebirdd-2.5, msg: Statement 77 : SELECT * FROM ENVANTER
+
+2016-12-12 20:31:00 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 77
+2016-12-12 20:31:02 cat: Prepare, proto: firebirdd-2.5, msg: Statement 78 : UPDATE LISANS SET ENVANTER_ID=? WHERE ID=?
+2016-12-12 20:31:02 cat: Bind prepared, proto: firebirdd-2.5, msg: Statement 78 : 1,1,
+2016-12-12 20:31:02 cat: Transaction, proto: firebirdd-2.5, msg: TRANSACTION COMMIT
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 78
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 62
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 63
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 64
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 65
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 61
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 68
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 69
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 70
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 66
+2016-12-12 20:31:02 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 67
+2016-12-19 08:39:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-19 08:39:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-19 08:39:21 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-19 08:39:21 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-19 08:41:10 cat: Transaction, proto: firebirdd-2.5, msg: COMMIT TRANSACTION "D:\~\dev~\dev.projects~\BtEnvanter_2016-12-13\bt_envanter\data\BT.FDB"
+2016-12-19 08:41:10 cat: Connect, proto: firebirdd-2.5, msg: DISCONNECT FROM "D:\~\dev~\dev.projects~\BtEnvanter_2016-12-13\bt_envanter\data\BT.FDB"
+2016-12-19 08:41:54 cat: Prepare, proto: firebirdd-2.5, msg: Statement 2 : SELECT * FROM GIRIS
+
+2016-12-19 08:41:54 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 2
+2016-12-19 08:41:54 cat: Prepare, proto: firebirdd-2.5, msg: Statement 3 :  SELECT a.RDB$RELATION_NAME, a.RDB$FIELD_NAME, a.RDB$FIELD_POSITION, a.RDB$NULL_FLAG, a.RDB$DEFAULT_VALUE, b. RDB$FIELD_LENGTH, b.RDB$FIELD_SCALE, c.RDB$TYPE_NAME, b.RDB$FIELD_TYPE, b.RDB$FIELD_SUB_TYPE, b.RDB$DESCRIPTION, b.RDB$CHARACTER_LENGTH, b.RDB$FIELD_PRECISION, a.RDB$DEFAULT_SOURCE, b.RDB$DEFAULT_SOURCE as RDB$DEFAULT_SOURCE_DOMAIN,b.RDB$COMPUTED_SOURCE as RDB$COMPUTED_SOURCE , b.RDB$CHARACTER_SET_ID FROM RDB$RELATION_FIELDS a JOIN RDB$FIELDS b ON (b.RDB$FIELD_NAME = a.RDB$FIELD_SOURCE) LEFT JOIN RDB$TYPES c ON (b.RDB$FIELD_TYPE = c.RDB$TYPE and c.RDB$FIELD_NAME = 'RDB$FIELD_TYPE') WHERE 1=1 and a.RDB$RELATION_NAME = 'GIRIS' ORDER BY a.RDB$RELATION_NAME, a.RDB$FIELD_POSITION
+2016-12-19 08:41:54 cat: Execute prepared, proto: firebirdd-2.5, msg: Statement 3
+2016-12-19 09:48:04 cat: Transaction, proto: firebirdd-2.5, msg: COMMIT TRANSACTION "D:\~\dev~\dev.projects~\BtEnvanter_2016-12-13\bt_envanter\data\BT.FDB"
+2016-12-19 09:48:04 cat: Connect, proto: firebirdd-2.5, msg: DISCONNECT FROM "D:\~\dev~\dev.projects~\BtEnvanter_2016-12-13\bt_envanter\data\BT.FDB"
